@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>School Student's Form validation</title>
+</head>
+<body>
+ 
+ <!-- Creating form which contains data memebers -->
+ <form action="firebase" id="schoolmanagement">
+
+    <div class="container">
+
+        <div class="alert"><p>Data has been entered</p></div>
+
+        <div class="name">
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+
+        <div class="std">
+            <input type="text" id="std" placeholder="Enter Standard">
+        </div>
+
+        <div class="Division">
+            <input type="" id="div" placeholder="Enter Division">
+        </div>
+
+        <div class="rollno">
+            <input type="text" id="rollno" placeholder="Enter RollNo">
+        </div>
+
+        <div class="sub">
+            <input type="text" id="sub" placeholder="Enter Subject">
+        </div>
+
+        <div class="submit">
+            <button type="submit">submit</button>
+        </div>
+
+    </div>
+
+ </form>
+
+ <!-- adding cdnjs file and script.js -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+ <script type="module" src="script.js"></script>
+</body>
+</html>
